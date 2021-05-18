@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset="utf-8">
+    <title>media</title>
+    <style>table,td,th{border: 1px solid}
+    </style>
+</head>
+
+<body>
+    <div id="lien">
+        <a href="textelistinform.html">texte &amp;Liste &amp;Texte</a> | <a href="tabel.html">Table</a> |
+        <a href="media.html">media</a>
+    </div>
+    <hr>
+    <div id="lien2">
+        <ul><li><a href="#image">Image</a></li>
+        <li><a href="#video1">Video 1</a></li>
+        <li><a href="#video2">Video 2</a></li>
+        <li><a href="#audio">Audio</a></li>
+        <li><a href="#iframe">Iframe</a></li></ul>        
+    </div>
+
+    <hr>
+    <h1>Manipluation des medias</h1>
+    <div id="image">
+        <h3>Image </h3>
+        <table id="tableau">
+            <tr> 
+                <td colspan="2"> <img src="image/voiture.svg" width="50"> </td> <td> <img src="image/bouc.svg" width="50"> </td>
+                <td> <img src="image/velo" width="50"></td>
+            </tr>
+            <tr>
+                <td> <img src="image/nantes.jpg" width="50"></td> 
+                <td> <svg height="60" width="200"> 
+                    <text x="0" y="15" fill="red" transform="rotate(30 20,40)"> je rigole gros</text>
+                </svg></td>
+            </tr>
+            <tr>
+                <td><a href="https://isen-nantes.fr/" target="_blanck"><svg width="400" height="110">
+                    <rect width="300" height="100" style="fill:rgb(32, 218, 63);stroke-width:5;stroke:rgb(0,0,0)" />
+                  </svg></td></a>
+            </tr>
+        </table>
+    </div>
+
+    <div id="video1">
+        <h3> Video 1</h3>
+        <video src="video/windtunnel.mp4" controls type="video/mp4"></video>
+    </div>
+
+    <div id="video2">
+        <h3>Video 2 avec Iframe</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7gwK1dcz0IU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div id ="audio">
+        <h3>Audio &sung;</h3>
+        <audio controls type="audio/mp3">
+            <source src="audio/audio.mp3.m4a" type="audio/mp3">
+            
+            </audio>      
+    </div>
+
+    <div id ="Iframe">  
+        <a href="https://isen-nantes.fr/" target="objet">cliquez ici <br>
+            <Iframe width="560" height="315" name="objet"> </Iframe></a>
+    </div>
+
+</body>
+</html>
