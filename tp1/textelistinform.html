@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='fr'>
+<head>
+    <meta charset="utf-8">
+    <title>textelistinform</title>
+</head>
+
+<body>
+
+
+    <p>
+        <a href="textelistinform.html">texte &amp;Liste &amp;Texte</a> | <a href="tabel.html">Table</a> |
+        <a href="media.html">media</a>
+    </p>
+    <hr>
+    <div id="lien">
+        <ul><li><a href="#etudiant">etudiant</a></li>
+        <li><a href="#enseignant">Enseignant</a></li>
+        <li><a href="#abbrevation">abbréviation</a></li></ul>
+        
+        </div>
+    <hr>
+    
+    <div id="etudiant">
+        <ul><li><h1>Etudiant</h1></li></ul>
+        <form action="textelistinform.html" method="get">
+            Prenom :
+            <input type="text" name="prenom">
+            Nom : 
+            <input type="text" name="nom"><br>
+            <label >Année étude</label> <input type="radio" name="annee_etude" value="A1">A1
+            <input type="radio" name="annee_etude" value="A2">A2 <br>
+        
+            Remarque :<br>
+            <textarea name="remarques"></textarea><br>
+            <input type="submit" value ="valider">
+        </form>
+                  
+    </div>
+
+
+    <hr>
+
+ <div id=Enseignant>
+    <ul><li><h1>Enseignat</h1></li></ul>
+        <form action="textelistinform.html" method="get">
+            Prenom :<br>
+            <input type="text" name="prenom_enseignant"><br>
+            Nom : <br>
+            <input type="text" name="nom_enseignant"><br>
+            Sites :<br>
+            <select name="site">
+                <option>Brest</option>
+                <option>Nantes</option>
+                <option>Rennes</option>
+            </select><br>
+            PassWord:
+            <input type="password"><br>
+            <input type="submit" value ="vendre">
+            </form>
+        </div>
+    <hr>
+ <div id="abbrevation">
+    <ul><li><h1>Abbreviations</h1></li></ul>
+        <h2>ISEN</h2>
+        Institut Supérieur de l'électronique et du numérique <br>
+        <h2>HTML</h2>
+        HyperText Markup language<br>
+ </div>
+    <hr>
+
+</body>
+
+</html> 

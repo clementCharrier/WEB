@@ -1,0 +1,43 @@
+body {
+  font-family: Georgia, serif;
+  line-height: 1.5em;
+}
+h1 {
+  font-size: 4em;
+  font-weight: normal;
+}
+h2 {
+  font-size: 1.2em;
+  margin-top: 0;
+}
+#menu {
+  display: flex;
+  justify-content: center;
+  border: 3px solid #783F27;
+}
+section {
+  background: #F6F3ED;
+  margin: 5px;
+  padding: 4px;
+  border: 1px dotted maroon;
+  width: 200px;
+}
+.title {
+  background-color: #783F27;
+  color: #F9AB33;
+  line-height: 4em;
+}
+.price {
+  font-weight: bold;
+  background: #F9AB33;
+  padding: 5px;
+  width: 90%;
+  text-align: center;
+}
+.photo{
+  order: -1;
+}
+.dish{
+  display: flex;
+  flex-direction: column;
+}
